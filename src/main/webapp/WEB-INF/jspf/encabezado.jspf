@@ -1,0 +1,11 @@
+<%-- Fragmento incluido con la directiva include: se copia dentro de cada pagina al compilarla. --%>
+<header>
+    <h1>Sistema de Gestion de Finanzas Personales (SGFP)</h1>
+    <p>Modulo Movimientos</p>
+</header>
+<nav>
+    <a href="${pageContext.request.contextPath}/">Inicio</a>
+    <a href="${pageContext.request.contextPath}/movimientos">Listar movimientos</a>
+    <a href="${pageContext.request.contextPath}/movimientos?accion=nuevo">Registrar movimiento</a>
+    <a href="${pageContext.request.contextPath}/movimientos?accion=buscar">Buscar por id</a>
+</nav>
